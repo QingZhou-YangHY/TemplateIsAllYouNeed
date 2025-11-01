@@ -1,0 +1,143 @@
+# 一般这个文件是用来存放运行的环境的，建议conda一个新的环境来运行
+
+# Core transformers ecosystem (specific versions needed)
+transformers==4.55.2
+accelerate==1.10.0
+tokenizers==0.21.4
+datasets==3.2.0
+huggingface-hub==0.34.4
+safetensors==0.4.5
+sentencepiece==0.2.0
+tiktoken==0.7.0
+timm==1.0.16
+
+# vLLM and inference engines
+vllm==0.10.2
+outlines==1.2.7
+outlines-core==0.2.11
+xgrammar==0.1.23
+compressed-tensors==0.11.0
+lm-format-enforcer==0.11.3
+
+# Ray for distributed computing
+ray==2.48.0
+
+# FastAPI and web framework
+fastapi==0.115.6
+starlette==0.41.3
+uvicorn==0.34.0
+uvloop==0.21.0
+httptools==0.6.4
+websockets==14.1
+
+# Async HTTP
+aiohttp==3.11.11
+aiohttp-cors==0.7.0
+aiohappyeyeballs==2.4.4
+httpx==0.28.1
+
+# Evaluation tools
+alpaca-eval==0.6.6
+torch-fidelity==0.3.0
+
+# Google Cloud APIs
+google-api-core==2.24.0
+google-auth==2.37.0
+googleapis-common-protos==1.66.0
+grpcio==1.68.1
+
+# Monitoring
+opencensus==0.11.4
+opencensus-context==0.1.3
+prometheus-client==0.21.1
+prometheus-fastapi-instrumentator==7.0.0
+
+# OpenAI API
+openai==1.99.1
+
+# Configuration management
+omegaconf==2.3.0
+pydantic==2.11.7
+pydantic-core==2.33.2
+
+# Utilities
+fire==0.7.1
+rich==13.9.4
+einops==0.8.0
+
+# Data processing
+pyarrow==18.1.0
+multiprocess==0.70.16
+
+# Image/PDF processing
+opencv-python-headless==4.11.0.86
+pdf2image==1.17.0
+av==13.1.0
+pydub==0.25.1
+
+# Mistral and special models
+mistral-common==1.8.2
+gguf==0.13.0
+
+# Caching
+diskcache==5.6.3
+blake3==1.0.0
+xxhash==3.5.0
+
+# Development tools
+py-spy==0.4.0
+memray==1.15.0
+depyf==0.19.0
+
+# Additional utilities
+hf-xet==1.1.5
+smart-open==7.1.0
+watchdog==6.0.0
+watchfiles==1.0.3
+
+# Manim visualization (optional, can comment out if not needed)
+manim==0.18.1
+manimpango==0.6.0
+mapbox-earcut==1.0.3
+moderngl==5.12.0
+moderngl-window==3.1.1
+glcontext==3.0.0
+pyglet==2.1.9
+pyglm==2.8.2
+screeninfo==0.8.1
+isosurfaces==0.1.2
+skia-pathops==0.8.0.post2
+svgelements==1.9.6
+srt==3.5.3
+
+# Parser tools
+lark==1.2.2
+antlr4-python3-runtime==4.9.3
+interegular==0.3.3
+
+# Geographic data
+airportsdata==20241001
+pycountry==24.6.1
+
+# Statistics
+patsy==1.0.1
+
+# Terminal utilities
+colorful==0.5.6
+textual==1.0.0
+
+# Timezone
+tzdata==2024.2
+
+# Security
+pyasn1-modules==0.4.1
+
+# Build tools
+pybind11==2.13.6
+
+# Misc small dependencies
+annotated-types==0.7.0
+cloup==3.0.8
+distro==1.9.0
+partial-json-parser==0.2.1.1.post4
+pylatexenc==2.10
