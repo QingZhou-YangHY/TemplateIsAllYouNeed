@@ -1,0 +1,19 @@
+name: your_project
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch::pytorch>=2.0.0
+  - pytorch::pytorch-cuda=11.8
+  - pip
+  - pip:
+    - transformers>=4.30.0
+    - datasets>=2.12.0
+    - numpy>=1.24.0
+    - pandas>=2.0.0
+    - tqdm>=4.65.0
+    - pyyaml
+
